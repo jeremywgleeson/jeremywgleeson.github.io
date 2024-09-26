@@ -8,4 +8,4 @@ slug: "hello-world"
 tags: []
 ---
 
-# Hello world! `waving-hand`
+# Hello world! :wave:
