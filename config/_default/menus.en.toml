@@ -11,14 +11,42 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
-  name = "Blog"
-  pageRef = "posts"
+  name = "Email"
+  url = "mailto:peculiar_reclaim801@simplelogin.com"
   weight = 10
+  [main.params]
+    icon = "email"
+    showName = true 
+    target = "_blank"
 
 [[main]]
-  name = "Projects"
-  pageRef = "projects"
-  weight = 10
+  name = "Discord"
+  url = "https://discordapp.com/users/175452244613791744"
+  weight = 20
+  [main.params]
+    icon = "discord"
+    showName = true 
+    target = "_blank"
+
+[[main]]
+  name = "GitHub"
+  url = "https://github.com/jeremywgleeson"
+  weight = 30
+  size = 2
+  [main.params]
+    icon = "github"
+    showName = true 
+    target = "_blank"
+
+# [[main]]
+#   name = "Blog"
+#   pageRef = "posts"
+#   weight = 10
+
+# [[main]]
+#   name = "Projects"
+#   pageRef = "projects"
+#   weight = 10
 
 
 # [[main]]
@@ -31,17 +59,17 @@
 #   pageRef = "tags"
 #   weight = 30
 
-[[main]]
-  identifier = "search"
-  weight = 99
-  [main.params]
-    action = "search"
+# [[main]]
+#   identifier = "search"
+#   weight = 99
+#   [main.params]
+#     action = "search"
 
-[[main]]
-  identifier = "locale"
-  weight = 100
-  [main.params]
-    action = "locale"
+# [[main]]
+#   identifier = "locale"
+#   weight = 100
+#   [main.params]
+#     action = "locale"
 
 # -- Footer Menu --
 # The footer menu is displayed at the bottom of the page, just before
