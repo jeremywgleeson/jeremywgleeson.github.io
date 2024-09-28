@@ -15,8 +15,8 @@ title = "Home"
 [params.author]
   name = "Jeremy Gleeson"
   # image = "img/dog.jpg"
-  headline = "Developer"
-  # bio = "Software Engineer"
+  # headline = "Developer"
+  # bio = "test"
   # links = [
   #   { email = "mailto:peculiar_reclaim801@simplelogin.com" },
   #   { link = "https://link-to-some-website.com/" },

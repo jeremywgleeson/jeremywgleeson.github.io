@@ -65,6 +65,13 @@
 #   [main.params]
 #     action = "search"
 
+[[footer]]
+  identifier = "appearance"
+  weight = 99
+  [footer.params]
+    action = "appearance"
+
+
 # [[main]]
 #   identifier = "locale"
 #   weight = 100
