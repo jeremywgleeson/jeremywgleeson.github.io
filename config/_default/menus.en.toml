@@ -10,33 +10,33 @@
 # overridden by providing a weight value. The menu will then be
 # ordered by weight from lowest to highest.
 
-[[main]]
-  name = "Email"
-  url = "mailto:peculiar_reclaim801@simplelogin.com"
-  weight = 10
-  [main.params]
-    icon = "email"
-    showName = true 
-    target = "_blank"
-
-[[main]]
-  name = "Discord"
-  url = "https://discordapp.com/users/175452244613791744"
-  weight = 20
-  [main.params]
-    icon = "discord"
-    showName = true 
-    target = "_blank"
-
-[[main]]
-  name = "GitHub"
-  url = "https://github.com/jeremywgleeson"
-  weight = 30
-  size = 2
-  [main.params]
-    icon = "github"
-    showName = true 
-    target = "_blank"
+# [[main]]
+#   name = "Email"
+#   url = "mailto:peculiar_reclaim801@simplelogin.com"
+#   weight = 10
+#   [main.params]
+#     icon = "email"
+#     showName = true 
+#     target = "_blank"
+# 
+# [[main]]
+#   name = "Discord"
+#   url = "https://discordapp.com/users/175452244613791744"
+#   weight = 20
+#   [main.params]
+#     icon = "discord"
+#     showName = true 
+#     target = "_blank"
+# 
+# [[main]]
+#   name = "GitHub"
+#   url = "https://github.com/jeremywgleeson"
+#   weight = 30
+#   size = 2
+#   [main.params]
+#     icon = "github"
+#     showName = true 
+#     target = "_blank"
 
 # [[main]]
 #   name = "Blog"
@@ -65,11 +65,11 @@
 #   [main.params]
 #     action = "search"
 
-[[footer]]
-  identifier = "appearance"
-  weight = 99
-  [footer.params]
-    action = "appearance"
+# [[footer]]
+#   identifier = "appearance"
+#   weight = 99
+#   [footer.params]
+#     action = "appearance"
 
 
 # [[main]]
